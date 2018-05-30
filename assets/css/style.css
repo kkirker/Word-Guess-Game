@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+div {
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.wrapper {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/83312795.gif);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-box {
+    z-index: 3;
+    border: 2px dotted white;
+    margin: 0;
+    transform: translate(50% 50%);
+    height: 60vh;
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.game-start {
+    flex: 1;
+    font-size: 30px;
+    padding-top: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.word-guess {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 25px;
+    padding-top: 100px;
+}
+
+.remaining-guesses-number {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.letters-already-guessed {
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.wins {
+    text-align: end;
+    justify-content: end;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#dashes {
+    letter-spacing: 10px;
+}
