@@ -33,7 +33,7 @@ div {
 
 .game-box {
     z-index: 3;
-    border: 2px dotted white;
+    /*border: 2px dotted white;*/
     margin: 0;
     transform: translate(50% 50%);
     height: 60vh;
@@ -84,4 +84,8 @@ div {
 
 #dashes {
     letter-spacing: 10px;
+}
+
+#letters-guessed {
+    letter-spacing: 2px;
 }
