@@ -61,7 +61,15 @@
 
         console.log(letterGuessed);
 
-
+        for (let a = 0; a < word.length; a++) {
+            console.log(word.charAt(a));
+            //needs code here like if word.charAt(a) === string.fromcharCode(keyPress) {
+            //    $('#dashes').html(word.charAt(a));
+            // code would need to replace the keyPress string from the dash at the index where the word contained an equal string, and then else the code below that puts the keyPress string as a guess made.
+            
+            
+        }
+            
 
         let newHTML = [];
         for (let index = 0; index < letterGuessed.length; index++) {
